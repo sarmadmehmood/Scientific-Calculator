@@ -1,4 +1,3 @@
-"""Scientific Calculator - UI only (buttons are not connected to any logic)."""
 
 import streamlit as st
 
@@ -15,7 +14,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("🧮 Scientific Calculator")
+st.title(" Scientific Calculator")
 
 _, top_r = st.columns([3, 2])
 with top_r:
